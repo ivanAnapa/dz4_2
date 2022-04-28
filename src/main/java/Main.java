@@ -6,6 +6,7 @@ public class Main {
         boolean registered = true;
 
         long actualResult = service.calculate(amount, registered);
+        System.out.println("Количество бонусов: " + actualResult);
     }
 }
 
